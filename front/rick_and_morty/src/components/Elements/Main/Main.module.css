@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Get Schwifty';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/3089507/get-schwifty.woff') format('woff');
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+
+  .MainTitleContainer {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    top: 0px;
+    justify-content: center;
+  }
+    
+span{
+    font-size: 0.4em;
+}
+
+
+
+.title{
+    margin: 0px 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    font-family: 'Get Schwifty';
+    font-size: 11em;
+    color: #08BAE3;
+    z-index: 50;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.5);
+}
+
+.middleTitle{
+    margin: auto 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    font-family: 'Get Schwifty';
+    font-size: 11em;
+    -webkit-text-stroke: 0.1em;
+    color: #FFF765;
+    z-index: 49;
+}
+
+.bottomTitle{
+    margin: auto 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    font-family: 'Get Schwifty';
+    font-size: 11em;
+    -webkit-text-stroke: 0.25em;
+    color: black;
+  z-index: 48;
+}
+
+.spancontainer{
+  display: flex;
+  height: 5%;
+  width: 35%;
+  position: absolute;
+  margin: auto;
+  bottom: 3%;
+  justify-content: space-around;
+  border-radius: 35%;
+  background: linear-gradient(-45deg, #FFF765, #23a6d5, #97CE4C);
+	background-size: 400% 400%;
+	animation: gradient 8s ease infinite;
+}
+
+.link{
+  margin: auto;
+  width: 30%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.span{
+  display: flex;
+  font-size: 15px;
+  color: #00000086;
+  -webkit-text-stroke: 0.1em;
+  justify-content: center;
+  width:100%;
+  backdrop-filter: blur(2px);
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  border-radius: 50%;
+  transition: 0.5s all;
+}
+
+.span:hover{
+  transform:scale(1.2);
+}

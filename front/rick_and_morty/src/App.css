@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image:url("https://trumpwallpapers.com/wp-content/uploads/Rick-And-Morty-Wallpaper-01-1920-x-1080.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.root{
+  height: 100vh !important;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
